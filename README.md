@@ -24,14 +24,17 @@ It uses a trained **Linear Regression Model** to predict the price of a car base
 ---
 
 ## 📂 Project Structure
+
 Car-Price-Predictor-ML101-/
-│── application.py # Flask application (main entry point)
-│── LinearRegressionModel.pkl # Pre-trained ML model
-│── templates/ # HTML templates for UI
-│── static/ # CSS/JS files (if any)
-│── data/ # Dataset used for training (optional)
-│── notebook.ipynb # Jupyter Notebook for training and analysis
-│── requirements.txt # Project dependencies
+│
+├── application.py             # Flask application (main entry point)
+├── LinearRegressionModel.pkl  # Pre-trained ML model
+├── templates/                 # HTML templates for UI
+├── static/                    # CSS/JS files (if any)
+├── data/                      # Dataset used for training (optional)
+├── notebook.ipynb             # Jupyter Notebook for training and analysis
+└── requirements.txt           # Project dependencies
+
 
 
 
