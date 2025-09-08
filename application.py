@@ -8,8 +8,8 @@ app = Flask(__name__)
 CORS(app)
 
 # Load ML model and dataset
-model = pickle.load(open('CarPrice_Predictor/LinearRegressionModel.pkl', 'rb'))
-car = pd.read_csv("CarPrice_Predictor/clean_car.csv")
+model = pickle.load(open('LinearRegressionModel.pkl', 'rb'))
+car = pd.read_csv("clean_car.csv")
 
 @app.route('/')
 def index():
